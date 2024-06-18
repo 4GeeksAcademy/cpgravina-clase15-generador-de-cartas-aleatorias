@@ -10,19 +10,28 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div
+      class="container-fluid text-center bg-success py-5 d-flex justify-content-center"
+      id="main-container"
+    >
+      <div
+        class="container-sm row card rounded-bottom-1"
+        style="width: 25rem;"
+        id="card"
+      >
+        <div
+          class="col-sm-12 card-header d-flex align-self-start text-danger bg-white border-0"
+        >
+          <p id="symbol"></p>
+        </div>
+        <div class="col-sm-12 card-body">
+          <p id="number"></p>
+        </div>
+        <div class="col-sm-12 card-footer text-danger bg-white border-0">
+          <p class="d-flex align-self-end" id="symbol2"></p>
+        </div>
       </div>
     </div>
   </body>

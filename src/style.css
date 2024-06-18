@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#main-container {
+  font-size: 6rem;
+}
+#number {
+  font-size: 10rem;
+}
+
+#symbol2 {
+  transform: rotate(180deg);
+}
