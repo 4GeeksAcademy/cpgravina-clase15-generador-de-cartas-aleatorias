@@ -1,12 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
-* {
-  border: 1px dashed red;
-  min-height: 10px;
-}
 #main-container {
-  height: 40rem;
   font-size: 6rem;
+}
+#number {
+  font-size: 10rem;
 }
 
 #symbol2 {

@@ -12,22 +12,25 @@
     />
   </head>
   <body>
-    <div class="container-fluid bg-success mt-5" id="main-container">
-      <div class="d-flex justify-content-center row-cols-3 h-75 w-100">
-        <div class="card">
-          <div
-            class="card-header d-flex align-self-start bg-white border-none text-danger h-25"
-          >
-            <p id="symbol"></p>
-          </div>
-          <div class="d-flex align-self-center card-body text-dark">
-            <p class="d-flex align-self-center" id="number"></p>
-          </div>
-          <div
-            class="card-footer d-flex align-self-end bg-white border-none text-danger h-25"
-          >
-            <p id="symbol2"></p>
-          </div>
+    <div
+      class="container-fluid text-center bg-success py-5 d-flex justify-content-center"
+      id="main-container"
+    >
+      <div
+        class="container-sm row card rounded-bottom-1"
+        style="width: 25rem;"
+        id="card"
+      >
+        <div
+          class="col-sm-12 card-header d-flex align-self-start text-danger bg-white border-0"
+        >
+          <p id="symbol"></p>
+        </div>
+        <div class="col-sm-12 card-body">
+          <p id="number"></p>
+        </div>
+        <div class="col-sm-12 card-footer text-danger bg-white border-0">
+          <p class="d-flex align-self-end" id="symbol2"></p>
         </div>
       </div>
     </div>
